@@ -2,7 +2,6 @@
 
 This is a small experiment to port some C++ code to R. The code is from
 this GH repository: <https://github.com/ivanfratric/polypartition>.
-
 This C++ library performs partitions of polygons: triangulation under
 various methods, and partition into convex polygons. The input polygons
 can include holes (see below and the above link for details).
