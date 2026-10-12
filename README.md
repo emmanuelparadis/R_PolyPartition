@@ -1,13 +1,5 @@
 # R_PolyPartition
 
-- [Requirements](#requirements)
-- [A few details on the port to R](#a-few-details-on-the-port-to-r)
-- [Installation](#installation)
-- [A simple example](#a-simple-example)
-- [Polygon without hole](#polygon-without-hole)
-- [Polygon with hole](#polygon-with-hole)
-- [Further comments](#further-comments)
-
 This is a small experiment to port some C++ code to R. The code is from
 this GH repository: <https://github.com/ivanfratric/polypartition>.
 
@@ -18,6 +10,14 @@ can include holes (see below and the above link for details).
 Triangulation of polygons is also implemented in the R package
 [tigers](https://github.com/emmanuelparadis/tigers) but with only two
 methods (see examples below).
+
+- [Requirements](#requirements)
+- [A few details on the port to R](#a-few-details-on-the-port-to-r)
+- [Installation](#installation)
+- [A simple example](#a-simple-example)
+- [Polygon without hole](#polygon-without-hole)
+- [Polygon with hole](#polygon-with-hole)
+- [Further comments](#further-comments)
 
 ## Requirements
 
