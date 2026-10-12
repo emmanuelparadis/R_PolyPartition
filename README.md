@@ -1,14 +1,12 @@
-
-- [R_PolyPartition](#r_polypartition)
-  - [Requirements](#requirements)
-  - [A few details on the port to R](#a-few-details-on-the-port-to-r)
-  - [Installation](#installation)
-  - [A simple example](#a-simple-example)
-  - [Polygon without hole](#polygon-without-hole)
-  - [Polygon with hole](#polygon-with-hole)
-  - [Further comments](#further-comments)
-
 # R_PolyPartition
+
+- [Requirements](#requirements)
+- [A few details on the port to R](#a-few-details-on-the-port-to-r)
+- [Installation](#installation)
+- [A simple example](#a-simple-example)
+- [Polygon without hole](#polygon-without-hole)
+- [Polygon with hole](#polygon-with-hole)
+- [Further comments](#further-comments)
 
 This is a small experiment to port some C++ code to R. The code is from
 this GH repository: <https://github.com/ivanfratric/polypartition>.
@@ -105,7 +103,7 @@ polygon(X, lwd = 5)
 vac <- lapply(res_tri, polygon, border = "green")
 ```
 
-![](README_files/figure-gfm/unnamed-chunk-3-1.png)<!-- -->
+![](unnamed-chunk-3-1.png)<!-- -->
 
 We note here that the C++ code of PolyPartition needs to have the
 polygon points (or vertices) into counter-clockwise order.
@@ -164,7 +162,7 @@ for (method in 1:5) {
 }
 ```
 
-![](README_files/figure-gfm/unnamed-chunk-6-1.png)<!-- -->
+![](unnamed-chunk-6-1.png)<!-- -->
 
 We compare these results with those with the function `triangulate()` in
 tigers. We note a difference in the way the results are returned by this
@@ -183,7 +181,7 @@ for (method in 1:2) {
 }
 ```
 
-![](README_files/figure-gfm/unnamed-chunk-7-1.png)<!-- -->
+![](unnamed-chunk-7-1.png)<!-- -->
 
 ## Polygon with hole
 
@@ -215,7 +213,7 @@ for (method in 1:4) {
 }
 ```
 
-![](README_files/figure-gfm/unnamed-chunk-9-1.png)<!-- -->
+![](unnamed-chunk-9-1.png)<!-- -->
 
 ## Further comments
 
